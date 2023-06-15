@@ -1,0 +1,77 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  background-color: rgba(19, 15, 15,0.93);
+  padding: 100px 0px;
+}
+.logo{
+  flex: 1;
+  height: 550px;
+  display: flex;
+  background: url("./Resources/Images/background-img.jpg");
+  background-size: cover;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+.main-logo{
+  padding: 0px;
+  margin: 0px;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 100px;
+}
+.main-logo img{
+  height: 100px;
+  width: 70px;
+  margin-left: 30px;
+}
+.main-logo{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+.main-logo p {
+  font-size: 45px;
+  color: white;
+  margin-right: 30px;
+}
+main {
+  background-color: rgba(255, 255, 255,0.9);
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  flex: 1.5;
+}
+.paragraphs{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 30px;
+}
+.form{
+  background-color: rgb(255, 248, 248);
+  padding-bottom: 10px;
+}
+form{
+  margin: 0px;
+  padding: 5px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.lets{
+  margin: 0;
+  padding-left: 30px;  
+}
+.first-name{
+  width: 200px;
+}
+.myform{
+  margin: 0;
+}
+
