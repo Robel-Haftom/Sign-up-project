@@ -5,58 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up-Project</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <div class="logo">
         <div class="main-logo">
           <img src="./Resources/Images/odin-logo.png" alt="" />
-          <p>Odin</p>
+          <p>ODIN</p>
         </div>
       </div>
       <div class="main">
         <div>
-          <p class="paragraphs">
+          <p class="paragraph-1">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
             perspiciatis provident ea aspernatur laborum illo dolore. Fuga,
             repellat tempora cumque dolorem incidunt
-          </p class="paragraphs">
-          <p class="paragraphs">similique ratione voluptate fugiat autem hic?</p>
+          </p>
+          <p class="paragraph-2">
+            similique ratione voluptate fugiat autem hic?
+          </p>
         </div>
-        <div class="form">     
-          <p class="lets"> Let's do this</p>
+        <div class="form">
+          <p class="lets">Let's do this</p>
           <form action="myform" method="">
             <div class="left">
-          <div class="form-format">
-            <p>First Name</p>
-            <input type="text" class="fname" id="first-name" />
-          </div>
-          <div class="form-format">
-            <p>Phone Number</p>
-            <input type="text" class="fname" id="first-name" />
-          </div>          
-          <div class="form-format">
-            <p>Password</p>
-            <input type="text" class="fname" id="first-name" />
-          </div>
-            </div>   
+              <div class="form-format">
+                <p>FIRST NAME</p>
+                <input type="text" class="fname" id="first-name" />
+                <p class="validation-txt">Entet user name</p>
+              </div>
+              <div class="form-format">
+                <p>PHONE NUMBER</p>
+                <input type="text" class="fname" id="first-name" />
+                <p class="validation-txt">Enter phone number</p>
+              </div>
+              <div class="form-format">
+                <p>PASSWORD</p>
+                <input type="text" class="fname" id="first-name" />
+                <p class="validation-txt">Enter password</p>
+              </div>
+            </div>
             <div class="right">
-          <div class="form-format">
-          <p>Last Name</p>
-          <input type="text" class="fname" id="first-name" />
-          </div>
-          <div class="form-format">
-            <p>Email</p>
-            <input type="text" class="fname" id="first-name" />
-          </div>        
-          <div class="form-format">
-            <p>Confirm Password</p>
-            <input type="text" class="fname" id="first-name" />
-          </div>
+              <div class="form-format">
+                <p>LAST NAME</p>
+                <input type="text" class="fname" id="first-name" />
+                <p class="validation-txt">Enter last name</p>
+              </div>
+              <div class="form-format">
+                <p>EMAIL</p>
+                <input type="text" class="fname" id="first-name" />
+                <p class="validation-txt">Enter Email</p>
+              </div>
+              <div class="form-format">
+                <p>CONFIRM PASSWORD</p>
+                <input type="text" class="fname" id="first-name" />
+                <p class="validation-txt">Password doesn't match</p>
+              </div>
             </div>
           </form>
         </div>
-        <div class="account"></div>
+        <div class="account">
+          <input
+            type="submit"
+            class="submit-btn"
+            id="submit-btn"
+            value="Create Account"
+          />
+          <p>
+            Already have an account?
+            <a
+              href="https://www.google.com
+            "
+              >Log in</a
+            >
+          </p>
+        </div>
       </div>
     </main>
   </body>
