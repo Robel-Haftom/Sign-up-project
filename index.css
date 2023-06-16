@@ -54,24 +54,31 @@ main {
   font-weight: 500;
   padding: 10px 30px;
 }
-.form{
-  background-color: rgb(255, 248, 248);
-  padding-bottom: 10px;
-}
-form{
-  margin: 0px;
-  padding: 5px 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 .lets{
   margin: 0;
   padding-left: 30px;  
 }
-.first-name{
-  width: 200px;
+.form{
+background-color: rgb(255, 248, 248);
 }
-.myform{
-  margin: 0;
+form{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.left{
+  width: fit-content;
+}
+.left p,
+.right p{
+  margin: 5px 0px 2px 0px;
+}
+#first-name{
+  margin-bottom: 10px;
+}
+.right{
+  width: fit-content;
 }
 
